@@ -52,7 +52,7 @@ There are several options you can pass to the module's init function param:
 
 - limit {Number}: limit the stacktrace to X depth
 - format {String}: 'array' to return the stacktrace as an array
-- tpl {String}: defaults to '{{function}}~{{filename}}|{{line}}|{{column}}'
+- tpl {String}: defaults to 'at {{function}} ({{filename}}:{{line}}:{{column}})'
 
 Ex:
 
