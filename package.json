@@ -1,0 +1,27 @@
+{
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>",
+  "license": "MIT",
+  "name": "trace-current",
+  "description": "Get the stacktrace for the current position.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alessioalex/trace-current.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "error"
+  ],
+  "dependencies": {
+    "callsite": "1.0.x"
+  },
+  "devDependencies": {
+    "tap" : "0.4.x"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  }
+}
